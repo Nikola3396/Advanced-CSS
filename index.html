@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced CSS - Assignment 1</title>
+    <style>
+      
+       a{
+           color: red;
+       }
+       
+        a[target]
+            {color: green;
+
+        }
+
+        #some-div:hover {
+            font-style: italic;
+        }
+         
+      #even {
+          color: red;
+      }
+        
+      #odd {
+            color: blue;
+        }
+
+         #new::after {
+             content: "NEW";
+             color: yellow;
+         }
+
+    </style>
+</head>
+
+<body>
+    <h1>Main Heading</h1>
+    <p>Paragraph 1</p>
+    <a href="https://www.google.com/" target="blank">Google</a>
+    <a href="https://www.google.com/doodles" target="blank">Google Doodles</a>
+    <a href="https://www.link-group.eu/">Goto Link Group </a>
+    <div id="first-div">
+        <h2>Subheading</h2>
+        <p id="new">Paragraph 2</p>
+        <p id="new">Paragraph 3</p>
+        <div id="second-div">
+            <h3>Sub subheading</h3>
+            <p id="even">Paragraph 4</p>
+            <p id="odd">Paragraph 5</p>
+            <p id="even">Paragraph 6</p>
+            <p id="odd">Paragraph 7</p>
+            <p id="even">Paragraph 8</p>
+        </div>
+    </div>
+    <p id="odd">Paragraph 9</p>
+    <div id="some-div">
+        <p id="even">Paragraph 10 </p>
+    </div>
+</body>
+
+</html>
